@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "1234"
+main = "src/worker.jsx"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "d4e5a33872b14f03b48856ea3b4ce9e3" }
+]
+
+[assets]
+directory = "./public"
